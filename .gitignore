@@ -1,4 +1,4 @@
 imdbpy5.tar.gz
 imdbpy/*
 .idea
-**/__pycache__/
+*.pyc

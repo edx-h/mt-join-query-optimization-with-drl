@@ -40,7 +40,7 @@ class CM1PostgresCardJobOne(gym.Env):
 
 
     try:
-        conn = psycopg2.connect(host="localhost", database="imdbload", user="postgres", password="admin")
+        conn = psycopg2.connect(host="localhost", database="imdbload", user="postgres", password="postgres")
     except:
         print("I am unable to connect to the database")
     #print(query)
